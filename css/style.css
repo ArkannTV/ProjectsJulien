@@ -33,9 +33,13 @@ a {
     color: black;
 }
 
+.titre {
+    position: absolute;
+    margin-left: 150px;
+}
+
 h1 {
     font-size: 35px;
-    margin-right: 50%;
 }
 
 h2 {
@@ -133,8 +137,143 @@ video {
     border-radius: 20px;
 }
 
-.heroicfantasy {
+@media screen and (max-width:950px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .iim {
+        margin-bottom: 100px;
+        margin-left: 0px;
+    }
+
+    .titre {
+        margin-top: 125px;
+        margin-left: 0px;
+    }
+
+    .para {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .photo {
+        width: 250px;
+        height: auto;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+    }
+    
+    .texte {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+
+    .lumiere {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border-radius: 10px;
+    }
+
+    video {
+        width: 500px;
+        height: auto;
+    }
+
+    h3 {
+        margin-bottom: 20px;
+    }
+
+    .interieurarchi {
+        width: 500px;
+        height: auto;
+    }
+
+    .archi {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border-radius: 10px;
+    }
+
+    .interieurarchi{
+        width: 700px;
+    }
+
+    .texte2 {
+        margin-bottom: 20px;
+        text-align: start;
+    }
+
+    .fantasy {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border-radius: 10px;
+    }
+    h5 {
+        margin-bottom: 20px;
+    }
 }
 
-@media screen and (max-width 800px) {}
+@media screen and (max-width:550px) {
+    .titre {
+        margin-left: 0px;
+    }
+    
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texte {
+        text-align: center;
+        justify-content: center;
+    }
+
+    video {
+        width: 400px;
+        margin-top: 30px;
+    }
+
+    .interieurarchi {
+        width: 400px;
+        margin-bottom: 30px;
+    }
+
+    .texte2 {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .heroicfantasy {
+        width: 400px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .texte {
+        justify-content: center;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .texte2 {
+        justify-content: center;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .para {
+        border-radius: 10px;
+    }
+}
