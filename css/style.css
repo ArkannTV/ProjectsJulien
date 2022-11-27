@@ -313,13 +313,13 @@ video {
 
 @media screen and (max-width:375px) {
     video {
-        width: 275px;
+        width: 250px;
     }
 
     .interieurarchi {
-        width: 275px;
+        width: 250px;
     }
     .heroicfantasy {
-        width: 275px;
+        width: 250px;
     }
 }
