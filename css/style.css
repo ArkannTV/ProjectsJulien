@@ -265,15 +265,61 @@ video {
     .texte {
         justify-content: center;
         text-align: center;
-        margin-left: 0px;
+        margin: 20px;
     }
+    
     .texte2 {
         justify-content: center;
         text-align: center;
-        margin-left: 0px;
+        margin: 20px;
     }
 
     .para {
         border-radius: 10px;
+    }
+
+    .lumiere {
+        border-radius: 10px;
+    }
+
+    .archi {
+        border-radius: 10px;
+    }
+
+    .fantasy {
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .photo {
+        margin-top: 20px;
+    }
+    
+    video {
+        margin-top: 20px;
+    }
+    
+    .interieurarchi {
+        width: 638px;
+        margin-bottom: 20px;
+    }
+
+    .heroicfantasy {
+        width: 638px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    video {
+        width: 275px;
+    }
+
+    .interieurarchi {
+        width: 275px;
+    }
+    .heroicfantasy {
+        width: 275px;
     }
 }
