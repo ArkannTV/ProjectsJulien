@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: azure
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 3px solid rgba(255, 136, 0, 0.555);
+    flex-wrap: wrap;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: flex-end;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+h1 {
+    font-size: 35px;
+    margin-right: 50%;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.iim {
+    margin-left: 15px;
+}
+
+.para {
+    display: flex;
+    margin: 45px;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(112, 112, 112, 0.482);
+    border-radius: 50px;
+}
+
+.lumiere {
+    display: flex;
+    margin: 45px;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(112, 112, 112, 0.482);
+    border-radius: 50px;
+}
+
+.fantasy {
+    display: flex;
+    margin: 45px;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(112, 112, 112, 0.482);
+    border-radius: 50px;
+}
+
+.archi {
+    display: flex;
+    margin: 45px;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(112, 112, 112, 0.482);
+    border-radius: 50px;
+}
+
+.texte {
+    margin-left: 40px;
+}
+
+.texte2 {
+    margin-right: 40px;
+    text-align: end;
+}
+
+video {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(112, 112, 112, 0.482);
+}
+
+.photo {
+    display: flex;
+    align-items: flex-start;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(112, 112, 112, 0.482);
+}
+
+.interieurarchi {
+    border-radius: 20px;
+}
+
+.heroicfantasy {
+    border-radius: 20px;
+}
+
+.heroicfantasy {
+
+}
+
+@media screen and (max-width 800px) {}
